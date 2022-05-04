@@ -1,0 +1,19 @@
+{
+	"name": "express-server-nextjs",
+	"version": "1.0.0",
+	"main": "server.js",
+	"author": "Mouad lousimi",
+	"scripts": {
+		"dev": "node server.js",
+		"build": "next build",
+		"start": "cross-env NODE_ENV=production node server.js"
+	},
+	"dependencies": {
+		"cross-env": "^7.0.3",
+		"express": "^4.18.1",
+		"next": "^12.1.6",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0"
+	},
+	"license": "MIT"
+}
